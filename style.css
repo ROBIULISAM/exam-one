@@ -65,7 +65,11 @@ nav{
 }
 .banner{
     text-align: center;
-    padding: 158px 243px;
+    padding: 152px 243px;
+    margin-bottom: 30px;
+}
+.banner-content{
+  
 }
 .banner-font{
     font-family: "Open Sans", sans-serif;
@@ -77,4 +81,46 @@ nav{
     "wdth" 100;
     color: #252432;
 
+}
+main{
+  background-color: #FFFFFF;
+  max-width:1140px;
+  margin: 0 auto;
+  
+}
+#one{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  margin-top: 40px;
+  border: 2px solid red;
+}
+img{
+  border-radius: 12px;
+}
+.left{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.lefr-parragraph{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    font-size: 24px;
+    width: 517px;
+    height: 60px;
+    line-height: 30px;
+}
+.two{
+  padding: 12px 36px;
+  width: 250px;
+  height: 48px;
 }
