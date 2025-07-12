@@ -157,3 +157,15 @@ img{
     height: 24px;
     line-height: 30px;
 }
+.three-two{
+  display: flex;
+  height: 342px;
+}
+.three{
+  display: contents;
+  background-color: antiquewhite;
+  margin-top: 30px;
+}
+.ovi{
+  display: flex;
+}
