@@ -64,6 +64,18 @@ nav{
 
     
 }
+.img-item{
+  margin-top: 20px;
+}
+.btn-item{padding: 15px 50px;
+  border: none;
+  width: 229px;
+  height: 48px;
+  background-color: #4E47FF;
+  color: #FFFFFF;
+  border-radius: 12px;
+
+}
 .lanch-btn{
   padding: 20px 50px;
   border: none;
@@ -180,6 +192,16 @@ img{
 .ovi{
   display: flex;
 }
+.four-banner h1{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    font-size: 50;
+
+}
 .five{
   display: flex;
   justify-content: space-between;
@@ -238,7 +260,7 @@ footer{
   height: 300px;
   padding: 104px 454px;
   border-color: 10px solid red;
-  background-color: aqua;
+  background-color: #FFFFFF ;
   align-items: center;
 }
 .footer-below{
