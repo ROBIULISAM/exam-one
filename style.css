@@ -13,7 +13,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    margin: 30px 150px;
     padding: 50px 0;
 
 
@@ -296,4 +296,8 @@ ul {
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+}
+button:hover{
+  background-color: aqua;
+
 }
