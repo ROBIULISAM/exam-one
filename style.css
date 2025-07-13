@@ -13,12 +13,12 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 150px 158px 150px;
+    
     padding: 50px 0;
 
 
 }
-    
+    /* inter */
 .common-font{
     
   font-family: "Open Sans", sans-serif;
@@ -62,11 +62,21 @@ nav{
     "wdth" 100;
 
 
+    
+}
+.lanch-btn{
+  padding: 20px 50px;
+  border: none;
+  width: 229px;
+  height: 48px;
+  background-color: #4E47FF;
+  color: #FFFFFF;
+  border-radius: 12px;
 }
 .banner{
     text-align: center;
     padding: 152px 243px;
-    margin-bottom: 30px;
+    margin-bottom: 158px 117.5px 158px 117.5px;
 }
 .banner-content{
   
@@ -138,7 +148,7 @@ img{
 .item-title{
    font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight:400px;
+  font-weight:bold;
   font-size: 80px;
   font-style: normal;
   font-variation-settings:
@@ -160,6 +170,7 @@ img{
 .three-two{
   display: flex;
   height: 342px;
+  margin-top: 50px;
 }
 .three{
   display: contents;
@@ -223,7 +234,7 @@ font-family: "Open Sans", sans-serif;
     border: none;
 }
 footer{
-  width: 1440px;
+  max-width: ;: 1440px;
   height: 300px;
   padding: 104px 454px;
   border-color: 10px solid red;
@@ -242,10 +253,25 @@ align-items: center;
 }
 .logo{
   margin-bottom: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    font-size: 100px;
+    color: #4E47FF;
+
 }
 ul {
   margin-top: 10px;
   display: flex;
   justify-content: space-between;
   list-style: none;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300px;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
